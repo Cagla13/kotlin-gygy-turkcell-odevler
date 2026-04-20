@@ -11,7 +11,7 @@ Bu deponun en güncel ve kapsamlı projesidir. JSONPlaceholder API kullanılarak
 * **Mimari:** MVVM (Model-View-ViewModel)
 * **Teknolojiler:** Jetpack Compose, Retrofit, StateFlow, Coroutines, Material 3
 * **Özellikler:** Dinamik liste yönetimi, modern detay penceresi (AlertDialog), gelişmiş hata yönetimi ve akıcı animasyonlar.
-* <img width="640" height="886" alt="image" src="https://github.com/user-attachments/assets/cfc83842-43eb-4cfc-a77b-20812b0c09f1" />
+<img width="640" height="886" alt="image" src="https://github.com/user-attachments/assets/cfc83842-43eb-4cfc-a77b-20812b0c09f1" />
 
 <img width="501" height="586" alt="image" src="https://github.com/user-attachments/assets/8c89fba3-298f-441a-992d-5be0cb549678" />
 
