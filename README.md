@@ -1,43 +1,44 @@
-# Turkcell GYGY  - Ödev Projeleri
+Turkcell GYGY - Ödev & Proje Deposu
+Merhaba! Bu depo, Turkcell Geleceği Yazanlar Geliştirici Akademisi (GYGY) kapsamında hazırladığım Android geliştirme ödevlerini ve projelerimi içermektedir. Projeler, temel OOP mantığından modern bulut tabanlı (Supabase) mimarilere kadar uzanan teknik gelişim sürecimi temsil etmektedir.
 
-Merhaba! Bu depo, Turkcell Geleceği Yazanlar Geliştirici Akademisi (GYGY) kapsamında hazırladığım tüm ödevleri ve projeleri içermektedir. Projeler; nesne yönelimli programlama temellerinden, modern Android mimarilerine kadar geniş bir yelpazeyi kapsamaktadır.
+ Proje İçerikleri
+1.  Turkcell Intro (Todo App with Supabase) - [YENİ]
+Bu projenin odağı, bulut tabanlı bir veritabanı ile asenkron veri yönetimidir.
 
----
+Mimari: MVVM & Repository Pattern
 
-##  Proje İçerikleri
+Teknolojiler: Supabase SDK, Jetpack Compose, Coroutines
 
-### 1. UserApp (Modern MVVM User List)
-Bu deponun en güncel ve kapsamlı projesidir. JSONPlaceholder API kullanılarak kullanıcı verileri çekilmiş ve modern Android standartlarında sunulmuştur.
-* **Mimari:** MVVM (Model-View-ViewModel)
-* **Teknolojiler:** Jetpack Compose, Retrofit, StateFlow, Coroutines, Material 3
-* **Özellikler:** Dinamik liste yönetimi, modern detay penceresi (AlertDialog), gelişmiş hata yönetimi ve akıcı animasyonlar.
+Özellikler: Veri ekleme/silme sonrası otomatik fetch ile liste yenileme ve Compose Navigation entegrasyonu.
+
+2.  UserApp (Modern MVVM User List)
+JSONPlaceholder API kullanılarak hazırlanan, modern Android standartlarını kapsayan projedir.
+
+Teknolojiler: Retrofit, StateFlow, Material 3
+
+Özellikler: Dinamik liste yönetimi ve AlertDialog detay pencereleri.
+
 <img width="640" height="886" alt="image" src="https://github.com/user-attachments/assets/cfc83842-43eb-4cfc-a77b-20812b0c09f1" />
 
-<img width="501" height="586" alt="image" src="https://github.com/user-attachments/assets/8c89fba3-298f-441a-992d-5be0cb549678" />
+3.  Bankacılık Sistemi Uygulaması
+Finansal süreçlerin mantığını kavramak amacıyla; hesap yönetimi, para transferi ve işlem geçmişi özelliklerine odaklanan OOP tabanlı bir çalışmadır.
 
+4.  About Me (Kişisel Tanıtım Sayfası)
+Jetpack Compose kullanılarak geliştirilen; teknik yetkinliklerimi ve profesyonel vizyonumu tanıtan modern arayüzlü bir "Dijital Kartvizit" projesidir.
 
+5.  OOP Temelleri & Emlak Sistemi
+Nesne Yönelimli Programlama kavramlarını (Kalıtım, Polimorfizm, Kapsülleme) pratik etmek amacıyla geliştirilen "Ev Satın Alma ve Kiralama" simülasyonudur.
 
-### 2. About Me (Kişisel Tanıtım Sayfası)
-Kotlin ile geliştirilen, kendimi ve teknik yeteneklerimi tanıtan tek sayfalık bir mobil uygulama projesidir.
+Kullanılan Teknolojiler & Yetkinlikler
+Dil: Kotlin & SQL
 
-### 3. Bankacılık Sistemi Uygulaması
-Finansal süreçlerin mantığını kavramak amacıyla geliştirilen, hesap yönetimi ve işlem geçmişi özelliklerine sahip bir ödevdir.
+UI: Jetpack Compose (Material 3)
 
-### 4. OOP Temelleri & Emlak Sistemi
-Nesne Yönelimli Programlama (OOP) kavramlarını (Inheritance, Polymorphism, Encapsulation) pratik etmek için geliştirilmiş "Ev Satın Alma ve Kiralama" simülasyonudur. İlgili teorik anlatımlar `OOP_Tanimi.md` dosyasında yer almaktadır.
+Networking: Retrofit & Supabase Kotlin SDK
 
----
+State Management: StateFlow & Flow
 
-##  Kullanılan Teknolojiler & Yetkinlikler
+Architecture: MVVM & Repository Pattern
 
-* **Dil:** Kotlin
-* **UI:** Jetpack Compose (Material 3)
-* **Network:** Retrofit & Gson
-* **Thread Management:** Kotlin Coroutines
-* **Architecture:** Clean Architecture & MVVM
-
----
-
-
----
-*Not: Bu repodaki tüm ödevler teslim tarihlerinden önce tamamlanmış ve güncellenmiştir.*
+Önemli Not
+Dosya Düzeni ve Tarihler: Depo içindeki dosyalar, daha düzenli bir yapı sunması adına klasörlenmiştir. Bu düzenleme nedeniyle GitHub üzerindeki son güncellenme tarihleri yeni görünebilir. Ancak, tüm ödevler ve projeler orijinal teslim tarihlerinden önce tamamlanmış, sistem üzerinden iletilmiş ve bu depoya eklenmiştir.
