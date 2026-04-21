@@ -1,44 +1,45 @@
-Turkcell GYGY - Ödev & Proje Deposu
-Merhaba! Bu depo, Turkcell Geleceği Yazanlar Geliştirici Akademisi (GYGY) kapsamında hazırladığım Android geliştirme ödevlerini ve projelerimi içermektedir. Projeler, temel OOP mantığından modern bulut tabanlı (Supabase) mimarilere kadar uzanan teknik gelişim sürecimi temsil etmektedir.
+# Turkcell GYGY - Ödev ve Proje Deposu
 
- Proje İçerikleri
-1.  Turkcell Intro (Todo App with Supabase) - [YENİ]
-Bu projenin odağı, bulut tabanlı bir veritabanı ile asenkron veri yönetimidir.
+Bu depo, Turkcell Geleceği Yazanlar Geliştirici Akademisi (GYGY) kapsamında hazırlanan Android geliştirme projelerini içermektedir. Projeler, Nesne Yönelimli Programlama (OOP) temellerinden başlayarak modern mimari yapılarını ve bulut tabanlı veri yönetimini kapsamaktadır.
 
-Mimari: MVVM & Repository Pattern
+---
 
-Teknolojiler: Supabase SDK, Jetpack Compose, Coroutines
+## Proje İçerikleri
 
-Özellikler: Veri ekleme/silme sonrası otomatik fetch ile liste yenileme ve Compose Navigation entegrasyonu.
+### 1. Turkcell Intro (Todo App with Supabase)
+Bulut tabanlı veritabanı entegrasyonu ve asenkron veri yönetimine odaklanan projedir.
+* **Mimari:** MVVM ve Repository Pattern
+* **Teknolojiler:** Supabase SDK, Jetpack Compose, Coroutines
+* **Özellikler:** Kullanıcıdan alınan verilerin Todo modeline dönüştürülerek veritabanına işlenmesi, işlem sonrası otomatik veri yenileme (fetch) ve Compose Navigation ile sayfa yönetimi.
 
-2.  UserApp (Modern MVVM User List)
-JSONPlaceholder API kullanılarak hazırlanan, modern Android standartlarını kapsayan projedir.
+### 2. UserApp (Modern MVVM User List)
+JSONPlaceholder API servisleri kullanılarak geliştirilen kullanıcı yönetim projesidir.
+* **Teknolojiler:** Retrofit, StateFlow, Material 3
+* **Özellikler:** Dinamik liste yönetimi, AlertDialog detay pencereleri ve gelişmiş hata yakalama mekanizmaları.
 
-Teknolojiler: Retrofit, StateFlow, Material 3
+### 3. Bankacılık Sistemi Uygulaması
+Finansal süreçlerin mantığını kavramak amacıyla geliştirilen; hesap yönetimi, para transferi ve işlem geçmişi özelliklerine sahip OOP tabanlı bir çalışmadır.
 
-Özellikler: Dinamik liste yönetimi ve AlertDialog detay pencereleri.
+### 4. About Me (Kişisel Tanıtım Sayfası)
+Jetpack Compose kullanılarak tasarlanan, teknik yetkinlikleri ve profesyonel vizyonu sergileyen dijital tanıtım projesidir.
 
-<img width="640" height="886" alt="image" src="https://github.com/user-attachments/assets/cfc83842-43eb-4cfc-a77b-20812b0c09f1" />
+### 5. OOP Temelleri ve Emlak Sistemi
+Kalıtım, Polimorfizm ve Kapsülleme gibi nesne yönelimli programlama prensiplerini pratik etmek amacıyla geliştirilen emlak simülasyonudur.
 
-3.  Bankacılık Sistemi Uygulaması
-Finansal süreçlerin mantığını kavramak amacıyla; hesap yönetimi, para transferi ve işlem geçmişi özelliklerine odaklanan OOP tabanlı bir çalışmadır.
+---
 
-4.  About Me (Kişisel Tanıtım Sayfası)
-Jetpack Compose kullanılarak geliştirilen; teknik yetkinliklerimi ve profesyonel vizyonumu tanıtan modern arayüzlü bir "Dijital Kartvizit" projesidir.
+## Teknik Yetkinlikler
 
-5.  OOP Temelleri & Emlak Sistemi
-Nesne Yönelimli Programlama kavramlarını (Kalıtım, Polimorfizm, Kapsülleme) pratik etmek amacıyla geliştirilen "Ev Satın Alma ve Kiralama" simülasyonudur.
+* **Programlama Dili:** Kotlin ve SQL
+* **Arayüz Geliştirme:** Jetpack Compose (Material 3)
+* **Veri Yönetimi:** Retrofit ve Supabase Kotlin SDK
+* **Asenkron Yapı:** Kotlin Coroutines ve Flow
+* **Mimari Yapı:** MVVM ve Repository Pattern
 
-Kullanılan Teknolojiler & Yetkinlikler
-Dil: Kotlin & SQL
+---
 
-UI: Jetpack Compose (Material 3)
+## Dosya Düzeni ve Tarihler Hakkında Not
+Depo içerisindeki dosyalar, daha profesyonel bir sunum ve erişilebilirlik adına klasörler altında toplanmıştır. Bu yapısal düzenleme nedeniyle GitHub üzerindeki son güncelleme tarihleri yeni görünebilmektedir. Tüm projeler orijinal teslim tarihlerinden önce tamamlanmış ve iletilmiştir.
 
-Networking: Retrofit & Supabase Kotlin SDK
-
-State Management: StateFlow & Flow
-
-Architecture: MVVM & Repository Pattern
-
-Önemli Not
-Dosya Düzeni ve Tarihler: Depo içindeki dosyalar, daha düzenli bir yapı sunması adına klasörlenmiştir. Bu düzenleme nedeniyle GitHub üzerindeki son güncellenme tarihleri yeni görünebilir. Ancak, tüm ödevler ve projeler orijinal teslim tarihlerinden önce tamamlanmış, sistem üzerinden iletilmiş ve bu depoya eklenmiştir.
+---
+*Not: TÜM ÖDEVLER ZAMANINDA GÖNDERİLDİ
