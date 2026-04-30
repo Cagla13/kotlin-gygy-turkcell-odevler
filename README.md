@@ -1,43 +1,45 @@
-# Turkcell GYGY  - Ödev Projeleri
+# Turkcell GYGY - Ödev ve Proje Deposu
 
-Merhaba! Bu depo, Turkcell Geleceği Yazanlar Geliştirici Akademisi (GYGY) kapsamında hazırladığım tüm ödevleri ve projeleri içermektedir. Projeler; nesne yönelimli programlama temellerinden, modern Android mimarilerine kadar geniş bir yelpazeyi kapsamaktadır.
+Bu depo, Turkcell Geleceği Yazanlar Geliştirici Akademisi (GYGY) kapsamında hazırlanan Android geliştirme projelerini içermektedir. Projeler, Nesne Yönelimli Programlama (OOP) temellerinden başlayarak modern mimari yapılarını ve bulut tabanlı veri yönetimini kapsamaktadır.
 
 ---
 
-##  Proje İçerikleri
+## Proje İçerikleri
 
-### 1. UserApp (Modern MVVM User List)
-Bu deponun en güncel ve kapsamlı projesidir. JSONPlaceholder API kullanılarak kullanıcı verileri çekilmiş ve modern Android standartlarında sunulmuştur.
-* **Mimari:** MVVM (Model-View-ViewModel)
-* **Teknolojiler:** Jetpack Compose, Retrofit, StateFlow, Coroutines, Material 3
-* **Özellikler:** Dinamik liste yönetimi, modern detay penceresi (AlertDialog), gelişmiş hata yönetimi ve akıcı animasyonlar.
-<img width="640" height="886" alt="image" src="https://github.com/user-attachments/assets/cfc83842-43eb-4cfc-a77b-20812b0c09f1" />
+### 1. Turkcell Intro (Todo App with Supabase)
+Bulut tabanlı veritabanı entegrasyonu ve asenkron veri yönetimine odaklanan projedir.
+* **Mimari:** MVVM ve Repository Pattern
+* **Teknolojiler:** Supabase SDK, Jetpack Compose, Coroutines
+* **Özellikler:** Kullanıcıdan alınan verilerin Todo modeline dönüştürülerek veritabanına işlenmesi, işlem sonrası otomatik veri yenileme (fetch) ve Compose Navigation ile sayfa yönetimi.
 
-<img width="501" height="586" alt="image" src="https://github.com/user-attachments/assets/8c89fba3-298f-441a-992d-5be0cb549678" />
-
-
-
-### 2. About Me (Kişisel Tanıtım Sayfası)
-Kotlin ile geliştirilen, kendimi ve teknik yeteneklerimi tanıtan tek sayfalık bir mobil uygulama projesidir.
+### 2. UserApp (Modern MVVM User List)
+JSONPlaceholder API servisleri kullanılarak geliştirilen kullanıcı yönetim projesidir.
+* **Teknolojiler:** Retrofit, StateFlow, Material 3
+* **Özellikler:** Dinamik liste yönetimi, AlertDialog detay pencereleri ve gelişmiş hata yakalama mekanizmaları.
 
 ### 3. Bankacılık Sistemi Uygulaması
-Finansal süreçlerin mantığını kavramak amacıyla geliştirilen, hesap yönetimi ve işlem geçmişi özelliklerine sahip bir ödevdir.
+Finansal süreçlerin mantığını kavramak amacıyla geliştirilen; hesap yönetimi, para transferi ve işlem geçmişi özelliklerine sahip OOP tabanlı bir çalışmadır.
 
-### 4. OOP Temelleri & Emlak Sistemi
-Nesne Yönelimli Programlama (OOP) kavramlarını (Inheritance, Polymorphism, Encapsulation) pratik etmek için geliştirilmiş "Ev Satın Alma ve Kiralama" simülasyonudur. İlgili teorik anlatımlar `OOP_Tanimi.md` dosyasında yer almaktadır.
+### 4. About Me (Kişisel Tanıtım Sayfası)
+Jetpack Compose kullanılarak tasarlanan, teknik yetkinlikleri ve profesyonel vizyonu sergileyen dijital tanıtım projesidir.
 
----
-
-##  Kullanılan Teknolojiler & Yetkinlikler
-
-* **Dil:** Kotlin
-* **UI:** Jetpack Compose (Material 3)
-* **Network:** Retrofit & Gson
-* **Thread Management:** Kotlin Coroutines
-* **Architecture:** Clean Architecture & MVVM
+### 5. OOP Temelleri ve Emlak Sistemi
+Kalıtım, Polimorfizm ve Kapsülleme gibi nesne yönelimli programlama prensiplerini pratik etmek amacıyla geliştirilen emlak simülasyonudur.
 
 ---
 
+## Teknik Yetkinlikler
+
+* **Programlama Dili:** Kotlin ve SQL
+* **Arayüz Geliştirme:** Jetpack Compose (Material 3)
+* **Veri Yönetimi:** Retrofit ve Supabase Kotlin SDK
+* **Asenkron Yapı:** Kotlin Coroutines ve Flow
+* **Mimari Yapı:** MVVM ve Repository Pattern
 
 ---
-*Not: Bu repodaki tüm ödevler teslim tarihlerinden önce tamamlanmış ve güncellenmiştir.*
+
+## Dosya Düzeni ve Tarihler Hakkında Not
+Depo içerisindeki dosyalar, daha profesyonel bir sunum ve erişilebilirlik adına klasörler altında toplanmıştır. Bu yapısal düzenleme nedeniyle GitHub üzerindeki son güncelleme tarihleri yeni görünebilmektedir. Tüm projeler orijinal teslim tarihlerinden önce tamamlanmış ve iletilmiştir.
+
+---
+*Not: TÜM ÖDEVLER ZAMANINDA GÖNDERİLDİ
